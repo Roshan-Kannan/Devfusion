@@ -1,24 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smooth Scrolling Example</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#section1">Section 1</a></li>
-            <li><a href="#section2">Section 2</a></li>
-            <li><a href="#section3">Section 3</a></li>
-        </ul>
-    </nav>
-
-    <div id="section1" class="section">Section 1</div>
-    <div id="section2" class="section">Section 2</div>
-    <div id="section3" class="section">Section 3</div>
-
-    <script src="script.js"></script>
-</body>
+    <head>
+        <title>
+            DevFusion
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Devfusion.css">
+        </head>
+        <body>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">DevFusion</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Take Survey</a></li>
+                <li><a href="#">Browse Surveys</a></li>
+                <li><a href="#">My Surveys</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="sign-in">Sign In</a></li>
+            </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="crtPrj">
+            <a href="#">Create Project</a>
+        <script src="Devfusion.js"></script>
+    </body>
 </html>
